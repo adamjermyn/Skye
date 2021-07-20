@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8cd5414d3004750d94b439c6b05fd0ea9073ae20978602fd2bee13e08a5598e5
-size 22
+#!/bin/bash
+
+./tester

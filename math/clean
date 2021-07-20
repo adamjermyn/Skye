@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5c34bc1663ad52589cbf9c698b457ea0c7bef986b71b8505503162ec2dd0e2d5
-size 47
+cd make; make clean
+cd ../test/make; make clean

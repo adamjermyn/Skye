@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59ca9665c0afd272c97c19d8ca4c62ab2012ebeaaa87e47bfc153f5aeeb1f1d8
-size 13
+cd make; make

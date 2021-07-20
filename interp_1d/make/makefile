@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cae1378155d32d105028349e354de0d9c1f8f56d6edcd113336343ff06784e6d
-size 295
+# QUIET makes the output from the compilation process much less verbose -- basically,
+# show which files are being compiled with which generic compilation command. The
+# goal of QUIET is to make it easier to spot warnings and/or circular dependency
+# errors.
+
+QUIET = yes
+
+include makefile_base

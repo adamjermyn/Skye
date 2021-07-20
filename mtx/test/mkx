@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3847fe055ef65cccd667482d48fe8b760ea07ffb06b930b36728e4a4974b6bfc
-size 15
+./mk; ./export

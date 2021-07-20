@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:706b9b5d360c18c09c38438de70ec5cd898c3b85bdadcc305f2d81e6bd17ccb9
-size 111
+mkdir new/test/plot_data
+mkdir new/test/plot_out
+cp -r test/test_data new/test/test_data
+cp test/*.rb new/test

@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:493d320fc7183ab3c3becad82c0a4f3597885e53b5d752e8c4f7a8281870e936
-size 155
+#!/bin/bash
+
+function check_okay {
+	if [ $? -ne 0 ]
+	then
+		echo
+		echo "FAILED"
+		echo
+		exit 1
+	fi
+}
+
+cd ../make; make; check_okay
+cd ../test/make; make
